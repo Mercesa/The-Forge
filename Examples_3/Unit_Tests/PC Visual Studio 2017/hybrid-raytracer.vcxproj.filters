@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{de89a2b4-8a4a-4444-b218-d8ac3e8cc5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f5e37912-2182-4782-b150-962fd3cb8232}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FSLShader Include="..\src\hybrid-raytracing\Shaders\FSL\basic.frag.fsl">
+      <Filter>Shaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\hybrid-raytracing\Shaders\FSL\basic.vert.fsl">
+      <Filter>Shaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\hybrid-raytracing\Shaders\FSL\crash.vert.fsl">
+      <Filter>Shaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\hybrid-raytracing\Shaders\FSL\resources.h.fsl">
+      <Filter>Shaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\hybrid-raytracing\Shaders\FSL\skybox.frag.fsl">
+      <Filter>Shaders</Filter>
+    </FSLShader>
+    <FSLShader Include="..\src\hybrid-raytracing\Shaders\FSL\skybox.vert.fsl">
+      <Filter>Shaders</Filter>
+    </FSLShader>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\hybrid-raytracing\hybrid-raytracer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

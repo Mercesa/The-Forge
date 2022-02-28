@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 15.0.28307.438
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{21A6980D-04AA-430D-BE3D-74F151226C8B}"
 EndProject
@@ -298,6 +298,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11a_UnlinkedMultiGPU", "11a
 		{DB6193E0-3C12-450F-B344-DC4DAED8C421} = {DB6193E0-3C12-450F-B344-DC4DAED8C421}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hybrid-raytracer", "hybrid-raytracer.vcxproj", "{62122AAE-4807-4774-A39A-DD193582F29A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -472,6 +474,10 @@ Global
 		{765FE836-821C-4AE9-8465-3640DD8FB33F}.Debug|x64.Build.0 = Debug|x64
 		{765FE836-821C-4AE9-8465-3640DD8FB33F}.Release|x64.ActiveCfg = Release|x64
 		{765FE836-821C-4AE9-8465-3640DD8FB33F}.Release|x64.Build.0 = Release|x64
+		{62122AAE-4807-4774-A39A-DD193582F29A}.Debug|x64.ActiveCfg = Debug|x64
+		{62122AAE-4807-4774-A39A-DD193582F29A}.Debug|x64.Build.0 = Debug|x64
+		{62122AAE-4807-4774-A39A-DD193582F29A}.Release|x64.ActiveCfg = Release|x64
+		{62122AAE-4807-4774-A39A-DD193582F29A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -518,6 +524,7 @@ Global
 		{7F1FE0D4-1C3E-40D5-AC9C-E1CBE1D82238} = {6CF62059-3AC3-43CD-A29E-2F1E01EA4115}
 		{652086C8-0048-43E2-81C8-6812227F42F6} = {6CF62059-3AC3-43CD-A29E-2F1E01EA4115}
 		{765FE836-821C-4AE9-8465-3640DD8FB33F} = {6CF62059-3AC3-43CD-A29E-2F1E01EA4115}
+		{62122AAE-4807-4774-A39A-DD193582F29A} = {6CF62059-3AC3-43CD-A29E-2F1E01EA4115}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {948F21A0-5B36-35C9-B219-88B1DAC0D0C2}
